@@ -27,7 +27,7 @@ warnings.filterwarnings('ignore')
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-print(f"Using device: {device}")
+print(f"Using device: {device}")Monkeypox_DilatedCNN_Attention.ipynb
 
 class DatasetManager:
     """Handles dataset extraction, cleaning, and preprocessing with better error handling"""
