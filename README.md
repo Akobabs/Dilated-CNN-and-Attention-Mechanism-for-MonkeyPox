@@ -43,10 +43,10 @@ When using this dataset, please cite the original dataset creators:
 
 * **Jupyter Notebooks**
 
-  * `type_1.ipynb`: ResNet-18 backbone with Dilated Attention Blocks (dilations 2/4/8, channel & spatial attention).
-  * `type_2.ipynb`: ResNet-50 backbone with Dilated Attention Blocks, optimized with Kaiming initialization.
+  * `type_1.*.ipynb`: ResNet-18 backbone with Dilated Attention Blocks (dilations 2/4/8, channel & spatial attention).
+  * `type_2.*.ipynb`: ResNet-50 backbone with Dilated Attention Blocks, optimized with Kaiming initialization.
   * `type_2.1.ipynb`, `type_2.2.ipynb`, `type_2.3.ipynb`: Variants of ResNet-50 experiments.
-  * `type_3.ipynb`: Additional architecture experiments.
+  * `type_1.1.ipynb`, `type_1.2.ipynb`, `type_1.3.ipynb`: Variants of ResNet-18 experiments.
   * `trials/`: Early prototype experiments.
 
 * **Streamlit App**
@@ -69,7 +69,9 @@ When using this dataset, please cite the original dataset creators:
 ```bash
 git clone https://github.com/Akobabs/Dilated-CNN-and-Attention-Mechanism-for-MonkeyPox.git
 cd Dilated-CNN-and-Attention-Mechanism-for-MonkeyPox
-pip install torch torchvision albumentations pandas numpy pillow matplotlib seaborn scikit-learn streamlit
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
 Download the dataset and place it under `./data/`.
