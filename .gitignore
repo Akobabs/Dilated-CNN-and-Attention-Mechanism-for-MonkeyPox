@@ -184,5 +184,4 @@ cython_debug/
 Data/
 *.zip
 *.xlsx
-*.txt
 *.pth
