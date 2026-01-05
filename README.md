@@ -2,8 +2,6 @@
 
 This project implements a deep learning classification system for detecting skin lesions caused by Monkeypox and related diseases. It uses **ResNet-based architectures with Dilated Attention Blocks** and includes Jupyter training notebooks and a **Streamlit web application** for batch inference.
 
-Here’s a tighter, clearer refactor of your dataset section, keeping it professional and research-ready:
-
 ---
 
 ## Dataset
